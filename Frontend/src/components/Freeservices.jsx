@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-
 import Cards from "./Cards";
 import axios from "axios";
 function Freeservices() {
@@ -64,12 +63,13 @@ function Freeservices() {
     <>
       <div className="max-w-screen-2xl container mx-auto md:px-20 px-4">
         <div>
-          <h1 className="font-semibold text-xl pb-2">Free Services Offered</h1>
+          <h1 className="font-semibold text-xl pb-2">Paid Services Offered</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-            pariatur deserunt tenetur praesentium molestiae laboriosam harum,
-            obcaecati quos amet reprehenderit culpa ad non tempora quibusdam
-            cumque, doloremque ipsum accusamus ipsa.
+          Shop your favorite stationery items and enjoy a special surprise.
+For every item you purchase, get an exciting free gift with your order!
+The more you shop, the more you receive.
+Hurry, this offer is available only for a limited time and while stocks last.
+Don't miss out on this amazing opportunity to save and get more!
           </p>
         </div>
 

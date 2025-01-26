@@ -3,6 +3,7 @@ import express from "express";
 import mongoose from "mongoose";
 //import dotenv from "dotenv";
 import cors from "cors";
+// import path from "path";
 
 import bookRoute from "./route/book.route.js";
 import userRoute from "./route/user.route.js";
@@ -14,6 +15,14 @@ dotenv.config();
 app.use(cors());
 app.use(express.json()); //middleware
 
+//deployment
+// if(process.env.Node_ENV ==="production"){
+//   const dirPath = path.resolve();
+//   app.use(express.static("Frontend/dist"));
+//   app.get("*",(req,res) =>{
+// res.sendFile(path.resolve(dirPath,"Frontend","dist", "index.html"));
+// })
+// }
 
 
 const PORT = process.env.PORT || 4000;
@@ -25,12 +34,12 @@ try{
     useNewUrlParser:true,
     useUnifiedTopology:true
   });
-  console.log("connected to mongoDB")
+  console.log("connected to mongoDB");
 
 }
 catch(error)
 {
-  console.log("error",error)
+  console.log("error",error);
 
 }
 //defining route

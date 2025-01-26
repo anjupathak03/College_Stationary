@@ -27,10 +27,7 @@ function Paidservices() {
           <span className="text-green-500"> College Stationary</span>
         </h1>
         <p className="mt-1 md:mt-5">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-          error, aspernatur, molestias, labore eaque quo veniam reiciendis
-          dolorum debitis repellat qui optio iure minima veritatis quis dicta a
-          magni commodi!
+        Thank you for joining our subscription family! Get ready to enjoy the freedom of selecting any 2 premium stationery items every week, crafted to meet all your needs. With your subscription, stationery shopping just got smarter, simpler, and more budget-friendly. We’re here to transform your shopping experience into something truly special. Dive in today and enjoy the perks of being a valued subscriber. Let’s make every week amazing!
         </p>
         <Link to="/">
           <button className="mt-6 bg-green-500 text-white px-4 py-2 rounded-md hover:bg-emerald-700 duration-300">Back</button>

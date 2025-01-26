@@ -50,9 +50,9 @@ function Navbar() {
       const navItems = (
         <>
               <li><a href="/">Home</a></li>
-              <li><a href="">Profile</a></li>
-              <li><a href="">Contact</a></li>
-              <li><a href="/Paidservices">Paid Services</a></li>
+              <li><a href="/UserPortal">UserPortal</a></li>
+              <li><a href="/AdminPortal">AdminPortal</a></li>
+              <li><a href="/Paidservices">Premium Products</a></li>
         </>
       )
       return (
