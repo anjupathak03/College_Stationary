@@ -34,7 +34,7 @@ function AdminPortal() {
    
 
     <div className="min-h-screen bg-gray-100 p-8 mt-1000 pt-1000 space-y-20"> 
-       <div className="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-6 mt-1000 pt-100 space-y-10"> 
+       <div className="space-y-10"> 
         <h2 className="text-2xl text-blue-1000 font-bold text-center mb-4 mt-100 pt-100 space-y-30"></h2>
         <h3 className="text-lg font-semibold mb-4 text-blue-900">Orders:</h3>
         <table className="table w-full border-collapse border border-gray-200">

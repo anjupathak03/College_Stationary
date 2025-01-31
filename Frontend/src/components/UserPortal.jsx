@@ -30,9 +30,9 @@ function UserPortal() {
   return (
     <>
     <Navbar/>
-    <div className="min-h-screen bg-gray-100 p-6">
-      <div className="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-6 space-y-10">
-        <h2 className="text-2xl font-bold text-center mb-4"></h2>
+    <div className="min-h-screen bg-gray-100 p-6 ">
+      <div className="space-y-12">
+        <h2 className="text-2xl font-bold text-center mb-4 "></h2>
         <h3 className="text-lg font-semibold mb-4 text-blue-900 space-y-30">Products:</h3>
         <div className="grid grid-cols-1 text-blue-900 md:grid-cols-3 gap-6">
           {dummyProducts.map((product) => (
