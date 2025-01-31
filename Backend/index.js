@@ -43,6 +43,9 @@ catch(error)
 
 }
 //defining route
+app.get("/", (req, res) => {
+  res.send("Hello from backend");
+});
 
 app.use("/book",bookRoute)
 app.use("/user",userRoute)
